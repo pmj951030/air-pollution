@@ -1,0 +1,7 @@
+venv
+.DS_Store
+.env
+docker-compose.yaml
+logs
+etc
+dags/__pycache__
