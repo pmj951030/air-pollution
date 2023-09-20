@@ -5,7 +5,7 @@ from airflow.operators.python import PythonOperator
 from airflow.operators.email import EmailOperator
 
 
-#
+
 with DAG(
     dag_id="dag_air_pollution", ## airflow에들어왔을때 보이는 dag이름
     schedule="5 * * * *", ## 매일 매시간 5분에 정보 수집 {분 시 일 월 요일}
