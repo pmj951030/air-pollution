@@ -5,3 +5,5 @@ docker-compose.yaml
 logs
 etc
 dags/__pycache__
+Files
+plugins/common/__pycache__
